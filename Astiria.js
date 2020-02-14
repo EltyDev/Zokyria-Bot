@@ -2,7 +2,6 @@ const config = require("./config.json");
 const discord = require("discord.js");
 const axios = require("axios");
 const bot = new discord.Client();
-var joueur = 0
 
 function verifieJoueur() {
 
@@ -21,7 +20,7 @@ function verifieJoueur() {
 }
 
 bot.on("ready", () => {
-  
+  	
   console.log(`${bot.user.tag} connecté !`);
   verifieJoueur();
   setInterval(verifieJoueur, 20000);
@@ -29,8 +28,8 @@ bot.on("ready", () => {
 })
 
 bot.on("guildMemberAdd", (member) => {
-
-	member.guild.channels.get('677704967875985409').send(`>>> __**Bienvenue**__\nBienvenue ${member} sur Astiria.`);
+	let joueur = member.guild.members.filter(member => !member.user.bot).size;
+	member.guild.channels.get('677704967875985409').send(`>>> <:Astiria:676218452125679661> 》**ASTIRIA | BIENVENUE**\nBienvenue à ${member} sur Astiria !\n● Le Discord compte désormais ${joueur} personnes`);
 
 })
 
