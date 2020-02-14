@@ -1,11 +1,13 @@
 const config = require("./config.json");
 const discord = require("discord.js");
-const client = new discord.Client();
+const bot = new discord.Client();
 
-client.on('ready', () => {
+bot.on('ready', () => {
   
-  console.log(`${client.user.tag} connecté !`);
+  console.log(`${bot.user.tag} connecté !`);
 
 })
 
-client.login(config.token);
+
+
+bot.login(config.token);
