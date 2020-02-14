@@ -4,6 +4,7 @@
   "description": "[![Astiria-Bot](https://i.imgur.com/DiQufXH.png)](https://discordapp.com/invite/cmKKhQD)\r ========================================================================\r Bot crée pour le discord d'Astiria.",
   "main": "Astiria.js",
   "dependencies": {
+    "axios": "^0.19.2",
     "discord.js": "^11.5.1"
   },
   "devDependencies": {},
