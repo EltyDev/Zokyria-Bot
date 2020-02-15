@@ -11,5 +11,5 @@ Installation
 ------------------------------------------------------------------------
 1. Téléchargez l'archive et Extrayez le dossier **Astiria-Bot-master**.
 2. Ouvrez **L'invite de commande** et exécutez la commande `npm install`.
-3. Copier le token de votre bot dans le fichier **config.json**.
+3. Copier le token de votre bot et l'id du channel de bienvenue dans le fichier **config.json**.
 4. Enfin exécutez la commande `npm start`
