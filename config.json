@@ -1,3 +1,4 @@
 {
-	"token": "Placez votre token ici"
+	"token": "Placez votre token ici",
+	"channel": "Placez l'id du channel de bienvenue"
 }
