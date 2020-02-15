@@ -14,6 +14,12 @@ function verifieJoueur() {
 			bot.user.setPresence({ game: { name: `astiria.minesr.com | ${joueurCo}/${joueurMax}`, type: 0 } });
 
 		}
+
+		else {
+
+			bot.user.setPresence({ game: { name: `astiria.minesr.com | Off`, type: 0 } });
+		
+		}
 	
 	})
 
