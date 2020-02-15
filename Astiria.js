@@ -29,7 +29,7 @@ bot.on("ready", () => {
 
 bot.on("guildMemberAdd", (member) => {
 	let joueur = member.guild.members.filter(member => !member.user.bot).size;
-	member.guild.channels.get('677704967875985409').send(`>>> <:Astiria:676218452125679661> 》**ASTIRIA | BIENVENUE**\nBienvenue à ${member} sur Astiria !\n● Le Discord compte désormais ${joueur} personnes`);
+	member.guild.channels.get(config.channel).send(`>>> <:Astiria:676218452125679661> 》**ASTIRIA | BIENVENUE**\nBienvenue à ${member} sur Astiria !\n● Le Discord compte désormais ${joueur} personnes`);
 
 })
 
