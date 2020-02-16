@@ -9,8 +9,8 @@ function verifieJoueur() {
 
 		if (res.data && res.data.players) {
 
-			let joueurCo = res.data.players.online || 0;
-			let joueurMax = res.data.players.max || 15;
+			let joueurCo = res.data.players.online + 1;
+			let joueurMax = joueurCo + 1;
 			bot.user.setPresence({ game: { name: `astiria.minesr.com | ${joueurCo}/${joueurMax}`, type: 0 } });
 
 		}
