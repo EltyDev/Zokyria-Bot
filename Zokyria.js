@@ -10,7 +10,7 @@ function verifieJoueur() {
 		if (res.data && res.data.players) {
 
 			let joueurCo = res.data.players.online;
-			let joueurMax = joueurCo;
+			let joueurMax = res.data.players.max;
 			bot.user.setPresence({ game: { name: `play.zokyria.minesr.com | ${joueurCo}/${joueurMax}`, type: 0 } });
 
 		}
