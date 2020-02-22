@@ -1,4 +1,4 @@
-[![Zokyria-Bot](https://i.imgur.com/DiQufXH.png)](https://discordapp.com/invite/cmKKhQD)
+[![Zokyria-Bot](https://i.imgur.com/36icL8s.png)](https://discordapp.com/invite/cmKKhQD)
 ========================================================================
 Bot crée pour le discord de Zokyroia.
 
