@@ -46,7 +46,7 @@ bot.on("guildMemberRemove", (member) => {
 	member.guild.channels.get(config.channel).send(`>>> <:Zokyria:680466280104460324> 》**ZOKYRIA | AUREVOIR**\nAurevoir à ${member} au plaisir de le revoir !\n● Le Discord compte désormais ${joueur} personnes`);
 })
 
-bot.on("message", async message ==> {
+bot.on("message", async message => {
 
 if (message.author.bot) return;
 
