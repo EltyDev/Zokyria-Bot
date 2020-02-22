@@ -1,26 +1,17 @@
 {
-  "name": "Astiria-Bot",
+  "name": "Zokyria-Bot-master",
   "version": "1.0.0",
-  "description": "[![Astiria-Bot](https://i.imgur.com/DiQufXH.png)](https://discordapp.com/invite/cmKKhQD)\r ========================================================================\r Bot crée pour le discord d'Astiria.",
-  "main": "Astiria.js",
+  "description": "[![Zokyria-Bot](https://i.imgur.com/DiQufXH.png)](https://discordapp.com/invite/cmKKhQD) ======================================================================== Bot crée pour le discord de Zokyroia.",
+  "main": "Zokyria.js",
   "dependencies": {
     "axios": "^0.19.2",
     "discord.js": "^11.5.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node Astiria.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Venodez/Astiria-Bot.git"
+    "start": "node Zokyria.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Venodez/Astiria-Bot/issues"
-  },
-  "homepage": "https://github.com/Venodez/Astiria-Bot#readme"
+  "license": "ISC"
 }
